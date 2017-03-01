@@ -32,6 +32,6 @@
     </main>
   </div>
   <a class="sb-link" href="//silvestarbistrovic.from.hr/en/articles/css-sidebar-toggle/">silvestarbistrovic.from.hr</a>
-  <link rel="stylesheet" href="/dist/css/style.min.css">
+  <link rel="stylesheet" href="./dist/css/style.min.css">
 </body>
 </html>
