@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <style media="screen">
-  <?php require_once '/dist/css/style.critical.min.css'; ?>
+  <?php require_once './dist/css/style.critical.min.css'; ?>
   </style>
   <title>CSS Sidebar</title>
 </head>
