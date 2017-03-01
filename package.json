@@ -1,0 +1,40 @@
+{
+  "name": "css-sidebar-toggle",
+  "version": "1.0.0",
+  "description": "Pure CSS solution for sidebar toggle with accessibility.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maliMirkec/css-sidebar.git"
+  },
+  "keywords": [
+    "cita",
+    "sidebar",
+    "toggle",
+    "accessibility",
+    "a11y"
+  ],
+  "author": "Silvestar Bistrović <malimirkeccita@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maliMirkec/css-sidebar/issues"
+  },
+  "homepage": "https://github.com/maliMirkec/css-sidebar#readme",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-bump": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-critical-css": "github:malimirkec/gulp-critical-css",
+    "gulp-cssimport": "latest",
+    "gulp-remove-empty-lines": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-sequence": "latest",
+    "gulp-strip-css-comments": "latest",
+    "require-dir": "latest"
+  }
+}

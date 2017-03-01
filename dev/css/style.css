@@ -1,0 +1,29 @@
+@media screen and (min-width: 20em) { }
+  @media screen and (min-width: 75em) { }
+.menu {
+  list-style-type: none; }
+.menu__link {
+  color: white;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 10vmin;
+  line-height: 15vmin;
+  transition: all .25s ease-out; }
+  .menu__link:hover, .menu__link:focus, .menu__link:active {
+    color: Gold; }
+  .input-toggler:checked ~ .menu-toggler .menu-toggler__line:not(:first-child):not(:last-child) {
+    opacity: 0; }
+  .input-toggler:checked ~ .menu-toggler .menu-toggler__line:first-child,
+  .input-toggler:checked ~ .menu-toggler .menu-toggler__line:last-child {
+    background-color: var(--toggler-color-hover); }
+  .input-toggler:checked ~ .menu-toggler .menu-toggler__line:first-child {
+    transform: translateY(calc(var(--toggler-line-size) * (var(--toggler-line-number) - 1))) rotate(45deg); }
+  .input-toggler:checked ~ .menu-toggler .menu-toggler__line:last-child {
+    transform: translateY(calc(-1 * var(--toggler-line-size) * (var(--toggler-line-number) - 1))) rotate(-45deg); }
+  .input-toggler:checked ~ .sidebar {
+    transform: translateX(0);
+    opacity: .98; }
+.sb-link:hover,
+.sb-link:focus,
+.sb-link:active {
+  background: #f7f7f7; }
