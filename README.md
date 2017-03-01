@@ -1,2 +1,1 @@
-# css-sidebar
-Pure CSS solution for hiding and showing sidebar.
+# CSS Sidebar Toggle
