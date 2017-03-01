@@ -1,6 +1,6 @@
 {
   "name": "css-sidebar-toggle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pure CSS solution for sidebar toggle with accessibility.",
   "main": "index.php",
   "scripts": {
